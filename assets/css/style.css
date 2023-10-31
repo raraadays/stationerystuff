@@ -17,12 +17,12 @@ body {
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    background-image: url(../images/cokobi.jpg);
+    background-image: url(../images/23.png);
     background-size: cover;
 }
 
 .container {
-    background-color: rgb(255, 236, 245); /* mewarnai bg */
+    background-color: rgb(157, 175, 199); /* mewarnai bg */
     display: flex; /* agar element di dalamnya dapat diatur secara fleksibel */
     flex-direction: column; /* agar element di dalamnya secara otomatis berbentuk kolom */
     align-items: center; /* agar element menjadi rata tengah */
@@ -32,7 +32,7 @@ body {
 }
 
 .item {
-    background-color: palevioletred;
+    background-color: rgb(113, 139, 168);
     /* memberikan jarak padding 1rem untuk top dan bottom, 10 rem */
     padding: 1rem 10rem; /* 1rem = 16px */
     width: 100%;
@@ -44,7 +44,7 @@ body {
 }
 
 .item:hover {
-    background-color: rgb(225, 153, 177);
+    background-color: rgb(51, 62, 77);
     /* memberikan efek transformasi */
     transform: translateY(-2px);
 }
